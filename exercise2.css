@@ -1,0 +1,182 @@
+.navbar {
+    background-color: #BEADFA;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    justify-self: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+
+.navbar > div {
+    margin: 0 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left, .right {
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.input-wraper {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input-wraper input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.input-wraper button {
+    border: none;
+    padding:  5px 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.input-wraper button:hover {
+    background-color: aquamarine;
+}
+
+.img-akun img {
+    width: 30px;
+    height: 30px;
+    color:aliceblue;
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+.img-akun2 img {
+    width: 30px;
+    height: 30px;
+    color:aliceblue;
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.content-up h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.content-up h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: italic;
+    color:#ffffff;
+}
+
+.content-up p {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 50%;
+}
+.content-down p {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    justify-content: center;
+    margin: auto;
+    max-width: 80%;
+}
+
+#bg-col {
+    background-color: #8E8FFA;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-black {
+    display: flex;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    width: 100%;
+}
+
+
+#bg-black{
+    margin-top:30px;
+}
+
+.bg-black h1 {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-size: 70px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+#review {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.image-wrapper {
+    border-radius: 20px;
+    background-color: #ffffff;
+    flex: 2 2 30%;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.round-image {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    background-color: #ffffff;
+    width:  100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.content {
+    margin-top: 10;
+}
